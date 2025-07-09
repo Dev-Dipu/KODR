@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background: rgb(242, 253, 255);
+}
+
+.h-screen {
+    height: 100%;
+}
+
+.p-10 {
+    padding: 5%;
+}
+
+.dgreen {
+    background-color: rgb(10, 92, 45);
+}
+
+.lgreen {
+    background-color: lightseagreen;
+}
+
+.red {
+    background-color: rgb(208, 55, 55);
+}
+
+.black {
+    background-color: rgb(14, 12, 12);
+}
