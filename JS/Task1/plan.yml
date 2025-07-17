@@ -1,0 +1,27 @@
+// Build a small JS widget that lets users:
+// 	•	Save a website (title + URL) to bookmarks.
+// 	•	Show all saved bookmarks in a list.
+// 	•	Clicking a bookmark opens the link in a new tab.
+// 	•	Bookmarks should persist even after refresh.
+
+// ✅ Macro & Micro Steps:
+// 	1.	HTML structure
+// 	•	Input for title
+// 	•	Input for URL
+// 	•	Button to save
+// 	•	Empty <ul> for list
+// 	2.	Capture form input
+// 	•	Use .value from DOM
+// 	3.	Validate the URL
+// 	•	Basic check: startsWith("http")
+// 	4.	Create a bookmark object
+// 	•	{ title: "ChatGPT", url: "https://chat.openai.com" }
+// 	5.	Push to array of bookmarks
+// 	6.	Save to localStorage
+// 	•	Convert array to JSON and store
+// 	7.	Render bookmarks
+// 	•	Loop through bookmarks → create <li> with anchor
+// 	8.	Open in new tab
+// 	•	<a target="_blank">
+// 	9.	On page load, fetch from localStorage
+// 	•	JSON.parse() and render again
