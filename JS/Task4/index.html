@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <script src='https://unpkg.com/@tailwindcss/browser@4'></script>
+</head>
+<body>
+    <div class="main h-screen bg-zinc-900 text-white flex items-center justify-center">
+        <div class="flex flex-col items-center gap-12">
+            <div class="flex flex-col gap-4 items-center w-40">
+                <label class="text-4xl text-nowrap">Select Image 📸</label>
+                <input class="selectimg outline-none bg-zinc-700 rounded-md px-3 py-1 w-40"
+            accept="image/png, image/jpeg"
+            type="file">
+            </div>
+            <div class="bg-red-300 rounded-md h-80 aspect-square overflow-hidden">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/008/695/917/small_2x/no-image-available-icon-simple-two-colors-template-for-no-image-or-picture-coming-soon-and-placeholder-illustration-isolated-on-white-background-vector.jpg" class="h-full w-full object-cover" alt="img">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
