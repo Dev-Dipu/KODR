@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind CSS Setup</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="bg-gray-100 p-8">
+        <div class="max-w-2xl mx-auto">
+            <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+                <!-- Comment Form -->
+                <form id="commentForm" class="mb-8">
+                    <textarea id="commentInput" class="w-full p-3 border rounded-lg mb-2" placeholder="Write your comment..."></textarea>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Post Comment</button>
+                </form>
+
+                <!-- Comments Container -->
+                <div id="commentsContainer">
+                    <!-- Comments will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
