@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
+import { UserContext } from "../context/UserContextProvider";
 
-const Login = ({setToggle, userstate: users}) => {
+const Login = () => {
+    const {setToggle, users} = useContext(UserContext);
     const {register, handleSubmit, reset, formState: {errors}} = useForm();
 
     const onSubmit = (user) => {

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
+import { UserContext } from "../context/UserContextProvider";
 
-const Register = ({userstate, setToggle}) => {
-    const [users, setUsers] = userstate;
+const Register = () => {
+    const {users, setUsers, setToggle} = useContext(UserContext);
 
     const {register, handleSubmit, reset, formState: {errors}} = useForm();
 
@@ -13,7 +14,10 @@ const Register = ({userstate, setToggle}) => {
             toast.error("Email already registered!");
             return;
         }
-        setUsers(prev => [...prev, user]);
+        setUsers(prev => {
+            localStorage.setItem("users", JSON.stringify([...prev, user]));
+            return [...prev, user];
+        });
         toast.success("Registration successful!");
         reset();
     };

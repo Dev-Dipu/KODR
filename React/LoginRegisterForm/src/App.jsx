@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Register from "./components/Register";
 import Login from "./components/Login"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {UserContext} from "./context/UserContextProvider";
 
 const App = () => {
-	const [users, setUsers] = useState([]);
-	const [toggle, setToggle] = useState(false);
+
+	
+	const {toggle, users} = useContext(UserContext)
+
     return (
         <div className="flex">
 			<div className="grow main min-h-screen font-[gilroy]">
             <ToastContainer position="top-right" autoClose={3000} />
 			{
-				toggle ? <Register setToggle={setToggle} userstate={[users, setUsers]} /> : <Login setToggle={setToggle} userstate={users} />
+				toggle ? <Register  /> : <Login />
 			}
         </div>
 		<div className="mt-8 bg-white w-1/6 rounded-lg shadow-lg p-6 max-w-md mx-auto flex flex-col">
