@@ -1,50 +1,29 @@
-import React, { useContext } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
-import { toast } from "react-toastify";
-import { UserContext } from "../context/UserContextProvider";
 
-const Login = () => {
-    const {setToggle, users} = useContext(UserContext);
+const Register = ({setToggle, userstate: users}) => {
+    
+
     const {register, handleSubmit, reset, formState: {errors}} = useForm();
-
-    const onSubmit = (user) => {
-        const foundUser = users.find((data) => data.email === user.email && data.password === user.password);
-        if (foundUser) {
-            toast.success("Login successful!");
-            reset();
-        } else {
-            toast.error("Invalid email or password!");
-        }
-    };
-
     return (
-        <div className="h-screen bg-black text-white flex flex-col text-2xl items-center justify-center gap-6">
+        <div className="h-screen bg-white text-black dark:bg-black dark:text-white flex flex-col text-2xl items-center justify-center gap-6">
             <h1 className="text-4xl">Login User</h1>
-            <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
+            <form onSubmit={handleSubmit((user) => {
+                const u = users.find((data) => data.email === user.email && data.password === user.password)
+                console.log(u)
+                reset()
+            })} className="flex flex-col gap-4">
                 <input
                     className="outline-none bg-zinc-800 rounded-sm px-3 py-1.5"
-                    type="email"
+                    type="text"
                     placeholder="email"
-                    {...register('email', { 
-                        required: "Email is required",
-                        pattern: {
-                            value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                            message: "Invalid email address"
-                        }
-                    })}
+                    {...register('email')}
                 />
-                {errors.email && <span className="text-red-500 text-sm">{errors.email.message}</span>}
                 <input
                     className="outline-none bg-zinc-800 rounded-sm px-3 py-1.5"
-                    type="password"
+                    type="text"
                     placeholder="password"
-                    {...register('password', { 
-                        required: "Password is required",
-                        minLength: {
-                            value: 6,
-                            message: "Password must be at least 6 characters"
-                        }
-                    })}
+                    {...register('password')}
                 />
                 <input
                     className="py-1.5 bg-emerald-500 rounded-sm cursor-pointer"
@@ -59,4 +38,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Register;
