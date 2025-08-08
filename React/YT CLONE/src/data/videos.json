@@ -1,0 +1,165 @@
+[
+    {
+        "id": "1",
+        "title": "Big Buck Bunny",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Big_Buck_Bunny_thumbnail_vlc.png/1200px-Big_Buck_Bunny_thumbnail_vlc.png",
+        "duration": "8:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "Vlc Media Player",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+        "subscriber": "25254545 Subscribers",
+        "isLive": true,
+        "comments": [
+            { "name": "Aarav", "text": "Insane quality 🔥" },
+            { "name": "Priya", "text": "Watched this 10 times already!" },
+            { "name": "Karan", "text": "Couldn’t stop laughing 😂" }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "The first Blender Open Movie from 2006",
+        "thumbnailUrl": "https://i.ytimg.com/vi_webp/gWw23EYM9VM/maxresdefault.webp",
+        "duration": "12:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "Blender Inc.",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "description": "Experience the groundbreaking animation that started it all - Elephants Dream, Blender's first open movie project from 2006. This surreal journey follows two characters through a mechanical world, showcasing the incredible possibilities of open-source 3D animation. Created entirely with free software, this film revolutionized the animation industry by proving that professional-quality content could be produced using open tools. A must-watch for animation enthusiasts and tech innovators alike.",
+        "subscriber": "25254545 Subscribers",
+        "isLive": true,
+        "comments": [
+            { "name": "Raj", "text": "Old but gold 💛" },
+            { "name": "Simran", "text": "Sab kuch perfect hai isme 💯" },
+            { "name": "Tanya", "text": "Editing is so smooth 😍" },
+            { "name": "Harsh", "text": "Love the revenge twist 😈" }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "For Bigger Blazes",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1507388644107-ce16cdf15eba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGhyb25lc3xlbnwwfHwwfHx8MA%3D%3D",
+        "duration": "8:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "T-Series Regional",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+        "isLive": true,
+        "comments": [
+            { "name": "Raj", "text": "Old but gold 💛" },
+            { "name": "Soham", "text": "Camera work is next level 🎥" },
+            { "name": "Harsh", "text": "Love the revenge twist 😈" },
+            { "name": "Riya", "text": "This deserves more views!" },
+            { "name": "Aarav", "text": "Insane quality 🔥" }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "For Bigger Escape",
+        "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1709311450621-6ce6545e2564?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVzY2FwZSUyMHRodW1ibmFpbHxlbnwwfHwwfHx8MA%3D%3D",
+        "duration": "8:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "T-Series Regional",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "description": " Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+        "subscriber": "25254545 Subscribers",
+        "isLive": false,
+        "comments": [
+            { "name": "Harsh", "text": "Love the revenge twist 😈" },
+            { "name": "Riya", "text": "This deserves more views!" },
+            { "name": "Raj", "text": "Old but gold 💛" },
+            { "name": "Tanya", "text": "Editing is so smooth 😍" },
+            { "name": "Simran", "text": "Sab kuch perfect hai isme 💯" },
+            { "name": "Soham", "text": "Camera work is next level 🎥" }
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Big Buck Bunny",
+        "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Big_Buck_Bunny_thumbnail_vlc.png/1200px-Big_Buck_Bunny_thumbnail_vlc.png",
+        "duration": "8:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "Vlc Media Player",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself. When one sunny day three rodents rudely harass him, something snaps... and the rabbit ain't no bunny anymore! In the typical cartoon tradition he prepares the nasty rodents a comical revenge.\n\nLicensed under the Creative Commons Attribution license\nhttp://www.bigbuckbunny.org",
+        "subscriber": "25254545 Subscribers",
+        "isLive": true,
+        "comments": [
+            { "name": "Aarav", "text": "Insane quality 🔥" },
+            { "name": "Priya", "text": "Watched this 10 times already!" },
+            { "name": "Karan", "text": "Couldn’t stop laughing 😂" },
+            { "name": "Neha", "text": "MX Player should take notes!" },
+            { "name": "Soham", "text": "Camera work is next level 🎥" },
+            { "name": "Riya", "text": "This deserves more views!" },
+            { "name": "Raj", "text": "Old but gold 💛" },
+            { "name": "Simran", "text": "Sab kuch perfect hai isme 💯" },
+            { "name": "Tanya", "text": "Editing is so smooth 😍" },
+            { "name": "Harsh", "text": "Love the revenge twist 😈" }
+        ]
+    },
+    {
+        "id": "6",
+        "title": "For Bigger Blazes",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1507388644107-ce16cdf15eba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGhyb25lc3xlbnwwfHwwfHx8MA%3D%3D",
+        "duration": "8:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "T-Series Regional",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+        "isLive": false,
+        "comments": [
+            { "name": "Aarav", "text": "Insane quality 🔥" },
+            { "name": "Priya", "text": "Watched this 10 times already!" },
+            { "name": "Karan", "text": "Couldn’t stop laughing 😂" }
+        ]
+    },
+    {
+        "id": "7",
+        "title": "For Bigger Escape",
+        "thumbnailUrl": "https://plus.unsplash.com/premium_photo-1709311450621-6ce6545e2564?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVzY2FwZSUyMHRodW1ibmFpbHxlbnwwfHwwfHx8MA%3D%3D",
+        "duration": "8:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "T-Series Regional",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "description": " Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+        "subscriber": "25254545 Subscribers",
+        "isLive": true,
+        "comments": [
+            { "name": "Aarav", "text": "Insane quality 🔥" },
+            { "name": "Priya", "text": "Watched this 10 times already!" },
+            { "name": "Karan", "text": "Couldn’t stop laughing 😂" },
+            { "name": "Neha", "text": "MX Player should take notes!" },
+            { "name": "Soham", "text": "Camera work is next level 🎥" },
+            { "name": "Riya", "text": "This deserves more views!" },
+            { "name": "Raj", "text": "Old but gold 💛" },
+            { "name": "Simran", "text": "Sab kuch perfect hai isme 💯" },
+            { "name": "Tanya", "text": "Editing is so smooth 😍" },
+            { "name": "Harsh", "text": "Love the revenge twist 😈" }
+        ]
+    },
+    {
+        "id": "8",
+        "title": "The first Blender Open Movie from 2006",
+        "thumbnailUrl": "https://i.ytimg.com/vi_webp/gWw23EYM9VM/maxresdefault.webp",
+        "duration": "12:18",
+        "uploadTime": "May 9, 2011",
+        "views": "24,969,123",
+        "author": "Blender Inc.",
+        "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV—for when Batman's escapes aren't quite big enough. For $35. Learn how to use Chromecast with Google Play Movies and more at google.com/chromecast.",
+        "isLive": false,
+        "comments": [
+            { "name": "Raj", "text": "Old but gold 💛" },
+            { "name": "Harsh", "text": "Love the revenge twist 😈" },
+            { "name": "Simran", "text": "Sab kuch perfect hai isme 💯" },
+            { "name": "Tanya", "text": "Editing is so smooth 😍" },
+            { "name": "Aarav", "text": "Insane quality 🔥" }
+        ]
+    }
+]
